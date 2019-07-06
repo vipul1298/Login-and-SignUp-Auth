@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorbutton"/>
+            <!--<gradient android:startColor="#6131BB" android:endColor="#084AF3"/>-->
+            <stroke android:color="#000000" android:width="4dp"/>
+            <corners android:radius="30dp"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorpressed"/>
+            <!--<gradient android:startColor="#A407FF" android:endColor="#F126F4"/>-->
+            <stroke android:color="#000000" android:width="4dp"/>
+            <corners android:radius="30dp"/>
+        </shape>
+    </item>
+</selector>
